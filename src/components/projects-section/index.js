@@ -26,15 +26,11 @@ const ProjectsSection = ({ projects }) => {
               </div>
               <div className="body">
                 <div className="thumbnail-wrapper">
-<<<<<<< HEAD
-                  <Image className="thumbnail" src={project.thumbnailUrl} />
-=======
                   <Image
                     className="thumbnail"
                     src={project.thumbnailUrl}
                     alt={project.thumbnailUrl}
                   />
->>>>>>> 61db9faea2024b99d82914588c2dd97b776662b6
                 </div>
                 <div className="content">
                   {project.techStack && (

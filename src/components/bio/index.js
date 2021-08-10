@@ -1,10 +1,5 @@
 import React from 'react';
 import ReactRotatingText from 'react-rotating-text';
-<<<<<<< HEAD
-
-import authorVideo from '../../../assets/author.mp4';
-=======
->>>>>>> 61db9faea2024b99d82914588c2dd97b776662b6
 import IconButtonBar from '../icon-button-bar';
 import Image from '../image';
 
