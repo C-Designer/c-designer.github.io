@@ -8,9 +8,7 @@ categories: 코드리뷰
 published: true
 ---
 
-![gender_chart_1.png](gender_chart_1.png)
-
----
+![gender_chart_4.png](gender_chart_4.png)
 
 차트api의 한정된 구조에 맞춰 sql을 짜야하다보니 DB구조상 복잡하게 데이터를 추출해야 했다.
 
@@ -74,7 +72,7 @@ ORDER BY RENT_DATE;
 
 ![gender_chart_3.png](gender_chart_3.png)
 
-현 실력으로는 어쩔수없다. 스트링으로 받아 잘라서 카운팅하여 값을 던지는수 밖에
+스트링으로 받아 카운팅 하는 수밖에 떠오르질 않는다.
 
 ```java
 do {        
@@ -102,8 +100,11 @@ do {
 } while (rs.next());
 ```
 
-![gender_chart_4.png](gender_chart_4.png)
+![gender_chart_1.png](gender_chart_1.png)
 
 ### 느낀점?
 
 다듬을 시간도 구현할 시간도 부족했지만, 배움이 많이 부족한것같다 차차 공부하여 간결성, 재사용성, 이해도가 높은 코드를 짜야겠다.
+
+'''toc
+'''
